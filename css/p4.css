@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+
+
+.topnav {
+    display: flex;
+    background-color: #19376D;
+    justify-content: space-between;
+    padding: 14px 16px;
+
+
+}
+
+.topnav div a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #F1F1F1;
+
+}
+
+.topnav a :hover {
+    background-color: lightblue;
+    color: black;
+}
+
+
+.app-body-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19376D;
+}
+
+.app-body-navigation a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+#nav_st {
+    margin: 0px 50px;
+}
+
+#nav_st div {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#nav_st img {
+    padding: 0px 30px;
+}
+
+.big {
+    color: #F1F1F1;
+    font-size: 25px;
+    font-family: 'Inter', serif;
+}
+
+.column {
+    font-family: 'Inter', serif;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    background-color: #4942E4;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    background-color: #4942E4;
+
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    background-color: #4942E4;
+
+}
+
+.image {
+    display: flex;
+}
+
+.text {
+    color: #F1F1F1;
+    padding: 0px 0px 0px 50px;
+    font-size: 22px;
+    text-align: justify;
+    background-color: #4942E4;
+}
+
+.text2 {
+    color: #F1F1F1;
+    padding: 0px 50px 0px 0px;
+    font-size: 22px;
+    text-align: justify;
+    background-color: #4942E4;
+}
+
+.text3 {
+    color: #F1F1F1;
+    padding: 0px 0px 0px 50px;
+    font-size: 22px;
+    text-align: justify;
+    background-color: #4942E4;
+}
+
+.image2 {
+    display: flex;
+}
+
+.image3 {
+    display: flex;
+}
+
+.column3 {
+    background-color: #4942E4;
+}
+
+@media screen and (max-width:800px) {
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box2 {
+        flex-direction: column-reverse;
+    }
+
+}

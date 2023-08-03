@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    background-color: #022C52;
+}
+
+
+.topnav {
+    display: flex;
+    background-color: #19376D;
+    justify-content: space-between;
+    padding: 14px 16px;
+
+
+}
+
+.topnav div a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #F1F1F1;
+
+}
+
+.topnav a :hover {
+    background-color: lightblue;
+    color: black;
+}
+
+
+.app-body-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19376D;
+}
+
+.app-body-navigation a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+#nav_st {
+    margin: 0px 50px;
+}
+
+#nav_st div {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#nav_st img {
+    padding: 0px 30px;
+}
+
+.image {
+    flex: 1.5;
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: 'Jacques Francois Shadow', sans-serif;
+    font-size: 40px;
+    color: #F1F1F1;
+}
+
+.center {
+    display: flex;
+    background-color: #3E54AC;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+
+.column {
+    color: white;
+    padding: 20px 30px 20px 30px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+
+
+        flex-wrap: wrap;
+
+    }
+
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+.black {
+    background-color: black;
+    color: #F1F1F1;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.small {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    font-family: 'Josafin', sans-serif;
+    color: #F1F1F1;
+}
+
+.number {
+    display: flex;
+    column-gap: 10%;
+    color: #068FFF;
+    font-size: 70px;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.number {
+    margin-top: 0px;
+}
+
+.numb {
+    margin: 0px;
+}
